@@ -38,13 +38,16 @@ Unblock-File -Path .\setup.ps1
 **2. now connect to that account e.g account2** </br>
 **3. inset below details** </br>
 ```
+| ------------------ | ---------------------------------------------- |
 | Field              | Value                                          |
 | ------------------ | ---------------------------------------------- |
 | Network name       | Localhost 8545                                 |
-| New RPC URL        | http://127.0.0.1:8545](http://127.0.0.1:8545   |
+| New RPC URL        | http://127.0.0.1:8545                          |
 | Chain ID           | 31337                                          |
 | Currency symbol    | ETH                                            |
 | Block Explorer URL | (Leave blank)                                  |
+| ------------------ | ---------------------------------------------- |
+
 ```
 </br> **select network : Localhost 8545** </br>
 
