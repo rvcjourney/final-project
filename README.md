@@ -15,7 +15,25 @@ As I am stoing URL of Image in database but not on block,As I am storing only Im
 
 # Blockchain Process
 
-**-----> Installation of all file will be in the blockchain folder " final-project "**
+**-------------------------------------------------- start ----------------------------------------------------**
+
+**-----> Automate   Installation of all file will be as follows** 
+                                                                **↩**
+## step 1 : clone the github file using :
+```
+git clone https://github.com/manojpisepatil/final-project.git
+```
+## step 2 : open powershel cmd
+```
+ ./setup.ps1
+```
+## It is one time process and if we try to run above same files then it gives error so , Unblock the Script File
+```
+Unblock-File -Path .\setup.ps1
+```
+**-------------------------------------------------- end ----------------------------------------------------**
+
+**-----> Manual  Installation of all file will be in the blockchain folder " final-project "**
 
 
 ## Terminal 1
