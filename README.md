@@ -34,9 +34,9 @@ Unblock-File -Path .\setup.ps1
 ```
 
 ## don't select connect 
-**1. create account by importing private key**
-**2. now connect to that account e.g account2**
-**3. inset below details**
+**1. create account by importing private key** </br>
+**2. now connect to that account e.g account2** </br>
+**3. inset below details** </br>
 ```
 | Field              | Value                                          |
 | ------------------ | ---------------------------------------------- |
@@ -46,7 +46,7 @@ Unblock-File -Path .\setup.ps1
 | Currency symbol    | ETH                                            |
 | Block Explorer URL | (Leave blank)                                  |
 ```
-**select network : Localhost 8545**
+</br> **select network : Localhost 8545** </br>
 
 **---------------------------------------------------------- end ----------------------------------------------------------------**
 
@@ -63,11 +63,11 @@ Unblock-File -Path .\setup.ps1
 5. npm install
 6. npx hardhat node --->  give permission "y"
 ``` 
-**downlaod metamask chrome extension and setup it**
-**In main**
-**1. create account by importing private key**
-**2. now connect to that account e.g account2**
-**3. inset below details**
+**downlaod metamask chrome extension and setup it**</br>
+**In main**</br>
+**1. create account by importing private key**</br>
+**2. now connect to that account e.g account2**</br>
+**3. inset below details**</br>
 ```
 | Field              | Value                                          |
 | ------------------ | ---------------------------------------------- |
@@ -77,7 +77,7 @@ Unblock-File -Path .\setup.ps1
 | Currency symbol    | ETH                                            |
 | Block Explorer URL | (Leave blank)                                  |
 ```
-**select network : Localhost 8545**
+**select network : Localhost 8545**</br>
 ## Terminal 2
 ```
 1. npx hardhat run --network localhost scripts/deploy.js
