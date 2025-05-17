@@ -57,7 +57,6 @@ const Modal = ({ setModalOpen, contract }) => {
 };
 export default Modal;
 
-
 // import { useEffect } from "react";
 // import "./Modal.css";
 // const Modal = ({ setModalOpen, contract }) => {
@@ -116,4 +115,3 @@ export default Modal;
 //   );
 // };
 // export default Modal;
-

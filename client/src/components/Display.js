@@ -26,7 +26,7 @@
 //       const images = str_array.map((item, i) => {
 //         const imageUrl = `http://localhost:8080/api/images/${item}`;
 //         return (
-//           <a href={imageUrl} key={i}> 
+//           <a href={imageUrl} key={i}>
 //             <img
 //               key={i}
 //               src={imageUrl}
@@ -87,9 +87,14 @@ const Display = ({ contract, account }) => {
     // Assuming dataArray is an array of CIDs (strings)
     const images = dataArray.map((cid, i) => {
       // Replace localhost with your IPFS gateway IP if needed
-      const ipfsGatewayUrl = `http://192.168.1.175:8080/ipfs/${cid}`;
+      const ipfsGatewayUrl = `http://192.168.137.43:8080/ipfs/${cid}`;
       return (
-        <a href={ipfsGatewayUrl} key={i} target="_blank" rel="noopener noreferrer">
+        <a
+          href={ipfsGatewayUrl}
+          key={i}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             src={ipfsGatewayUrl}
             alt={`Image ${cid}`}
@@ -105,11 +110,7 @@ const Display = ({ contract, account }) => {
   return (
     <>
       <div className="image-list">{data}</div>
-      <input
-        type="text"
-        placeholder="Enter Address"
-        className="address"
-      />
+      <input type="text" placeholder="Enter Address" className="address" />
       <button className="center button" onClick={getdata}>
         Get Data
       </button>
@@ -118,4 +119,3 @@ const Display = ({ contract, account }) => {
 };
 
 export default Display;
-

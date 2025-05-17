@@ -1,109 +1,115 @@
-.App {
-  text-align: center;
-}
-
-.bg {
-  animation: slide 3s ease-in-out infinite alternate;
-  /* background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%); */
-  background-color: rgb(207, 246, 246);
-  bottom: 0;
-  left: -50%;
-  opacity: 0.5;
-  position: fixed;
-  right: -50%;
-  top: 0;
-  z-index: -1;
-}
-
-.content {
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 0.25em;
-  box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.25);
-  box-sizing: border-box;
-  left: 50%;
-  padding: 10vmin;
-  position: fixed;
-  text-align: center;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
-h1 {
-  font-family: monospace;
-}
-
-@keyframes slide {
-  0% {
-    transform: translateX(-25%);
-  }
-  100% {
-    transform: translateX(25%);
-  }
-}
-
-* {
-  padding: 0;
+/* Reset and base */
+body,
+html,
+#root {
   margin: 0;
-  box-sizing: border-box;
-}
-body {
-  height: 900px;
-}
-header {
-  text-align: center;
-  width: 100%;
-  height: auto;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-  overflow: hidden;
-  border-radius: 0 0 85% 85% / 30%;
-}
-header .overlay {
-  width: 100%;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f7fa;
+  color: #333;
   height: 100%;
-  padding: 50px;
-  color: #fff;
-  text-shadow: 1px 1px 1px #333;
-  background-image: linear-gradient(135deg, #9f05ff69 10%, #fd5e086b 100%);
 }
 
-h1 {
-  font-family: "Dancing Script", cursive;
-  font-size: 60px;
-  margin-bottom: 30px;
+/* App container */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: auto;
 }
 
-h3,
-p {
-  font-family: "Open Sans", sans-serif;
-  margin-bottom: 30px;
-}
-.share {
-  padding: 16px;
-  margin-top: 10px;
-  vertical-align: center;
-  background: #f44336;
-  width: 70px;
-  height: 45px;
+/* Attractive Navbar */
+header {
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
   color: white;
-  border:black;
-  border-radius: 4px;
-  font-size: 13px;
-  box-shadow: 1px 2px 2px;
-  z-index: -1px;
+  padding: 20px 40px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
-.share:hover {
-  box-shadow: 0 1px 3px 0 rgb(246, 5, 5),
-    0 1px 2px 0 rgb(247, 4, 4);
+.overlay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.cid-dropdown{
-  padding: 20px;
+.overlay h1 {
+  font-size: 28px;
+  margin: 0;
+  font-weight: bold;
 }
 
-.cid-select{
-  padding: 20px;
+.account-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
 
+.account-info h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.account-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: white;
+  color: #111827;
+  padding: 8px 16px;
+  border-radius: 9999px;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.account-avatar {
+  width: 32px;
+  height: 32px;
+  background-color: #4f46e5;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Main content */
+.content {
+  flex: 1;
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Sections */
+section {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-4px);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 50px;
+  background: #111827;
+  color: #ccc;
+  font-size: 1rem;
 }
