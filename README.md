@@ -88,23 +88,28 @@ Unblock-File -Path .\setup.ps1
 ```
 **click on select**
 
-</hr></hr></br></br>
-<table>
-  <tr>
-    <td>IN metamask extension --------> </td>
-    <td>ADD Account ------------------></td>
-    <td>SELECT Private key -----------></td>
-    <td>Enter Private key (copied) ---></td>
-  </tr>
-    <tr>
-    <td>![Screenshot (16)](https://github.com/user-attachments/assets/8190b9eb-a1bb-4366-a031-4a6857e685b9)</td>
-    <td>![Screenshot (17)](https://github.com/user-attachments/assets/2573a8f0-346b-4ac1-b35f-8553e1c23537)</td>
-    <td>![Screenshot (18)](https://github.com/user-attachments/assets/18d772bf-6bd2-4343-aac7-d2058d12520e)</td>
-    <td>![Screenshot (19)](https://github.com/user-attachments/assets/7dc49e4c-97df-4d45-b6fd-de45a8209d73)</td>
-    <td>![Screenshot (22)](https://github.com/user-attachments/assets/b844efcd-2dc9-442e-b923-63edc62b450c)</td>
-  </tr>
-</table>
-</br></br></hr></hr>
+# 🦊 MetaMask – Import Account Using Private Key
+
+This guide walks you through the steps to import an account into MetaMask using a private key.
+
+## 📌 Steps to Import an Account
+
+| Step | Description | Screenshot |
+|------|-------------|------------|
+| 1 | Open the **MetaMask extension** | ![Step 1](https://github.com/user-attachments/assets/8190b9eb-a1bb-4366-a031-4a6857e685b9) |
+| 2 | Click on **Add Account** | ![Step 2](https://github.com/user-attachments/assets/2573a8f0-346b-4ac1-b35f-8553e1c23537) |
+| 3 | Select **Import Account**, then choose **Private Key** | ![Step 3](https://github.com/user-attachments/assets/18d772bf-6bd2-4343-aac7-d2058d12520e) |
+| 4 | Paste your **Private Key** into the field and click **Import** | ![Step 4](https://github.com/user-attachments/assets/7dc49e4c-97df-4d45-b6fd-de45a8209d73) |
+| 5 | You have successfully imported the account! 🎉 | ![Step 5](https://github.com/user-attachments/assets/b844efcd-2dc9-442e-b923-63edc62b450c) |
+
+> ⚠️ **Never share your private key with anyone.** Anyone with access to your private key can control your wallet.
+
+---
+
+## ✅ Done!
+
+Your wallet is now ready to use with the imported account.
+
 
 https://github.com/user-attachments/assets/cf4d4b32-6582-4fd4-95a4-71774af51c97
 
