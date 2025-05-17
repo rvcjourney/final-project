@@ -15,7 +15,8 @@ As I am stoing URL of Image in database but not on block,As I am storing only Im
 
 # Blockchain Process
 
-**-------------------------------------------------- start ----------------------------------------------------**
+
+**----------------------------------------------------------------------------------------------------- start -----------------------------------------------------------------------------------------------------**
 
 **-----> Automate   Installation of all file will be as follows** 
                                                                 **↩**
@@ -31,7 +32,23 @@ git clone https://github.com/manojpisepatil/final-project.git
 ```
 Unblock-File -Path .\setup.ps1
 ```
-**-------------------------------------------------- end ----------------------------------------------------**
+
+## don't select connect 
+**1. create account by importing private key**
+**2. now connect to that account e.g account2**
+**3. inset below details**
+```
+| Field              | Value                                          |
+| ------------------ | ---------------------------------------------- |
+| Network name       | Localhost 8545                                 |
+| New RPC URL        | [http://127.0.0.1:8545](http://127.0.0.1:8545) |
+| Chain ID           | 31337                                          |
+| Currency symbol    | ETH                                            |
+| Block Explorer URL | (Leave blank)                                  |
+```
+**select network : Localhost 8545**
+
+**----------------------------------------------------------------------------------------------------- end -----------------------------------------------------------------------------------------------------**
 
 **-----> Manual  Installation of all file will be in the blockchain folder " final-project "**
 
@@ -45,7 +62,21 @@ Unblock-File -Path .\setup.ps1
 5. npm install
 6. npx hardhat node --->  give permission "y"
 ``` 
-
+**downlaod metamask chrome extension and setup it**
+**In main**
+**1. create account by importing private key**
+**2. now connect to that account e.g account2**
+**3. inset below details**
+```
+| Field              | Value                                          |
+| ------------------ | ---------------------------------------------- |
+| Network name       | Localhost 8545                                 |
+| New RPC URL        | [http://127.0.0.1:8545](http://127.0.0.1:8545) |
+| Chain ID           | 31337                                          |
+| Currency symbol    | ETH                                            |
+| Block Explorer URL | (Leave blank)                                  |
+```
+**select network : Localhost 8545**
 ## Terminal 2
 ```
 1. npx hardhat run --network localhost scripts/deploy.js
