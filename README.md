@@ -33,7 +33,7 @@ git clone https://github.com/manojpisepatil/final-project.git
 Unblock-File -Path .\setup.ps1
 ```
 
-## don't select connect 
+## before select connect do below process then click on select 
 **1. create account by importing private key** </br>
 **2. now connect to that account e.g account2** </br>
 **3. inset below details** </br>
@@ -77,6 +77,7 @@ Unblock-File -Path .\setup.ps1
 | Currency symbol    | ETH                                            |
 | Block Explorer URL | (Leave blank)                                  |
 ```
+
 **select network : Localhost 8545**</br>
 ## Terminal 2
 ```
@@ -85,3 +86,4 @@ Unblock-File -Path .\setup.ps1
 3. npm install
 4. npm start
 ```
+**click on select**
