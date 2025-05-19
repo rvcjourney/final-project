@@ -51,6 +51,50 @@ Unblock-File -Path .\setup.ps1
 **---------------------------------------------------------- end ----------------------------------------------------------------**
 
 
+**----> Manual  Installation of all file will be in the blockchain folder " final-project "**
+
+
+=======
+</hr></hr>
+
+# Blockchain Process
+
+
+**--------------------------------------------------------- start ---------------------------------------------------------------**
+
+**-----> Automate   Installation of all file will be as follows** 
+                                                                **↩**
+## step 1 : clone the github file using :
+```
+git clone https://github.com/manojpisepatil/final-project.git
+```
+## step 2 : open powershel cmd
+```
+ ./setup.ps1
+```
+## It is one time process and if we try to run above same files then it gives error so , Unblock the Script File
+```
+Unblock-File -Path .\setup.ps1
+```
+
+## before select connect do below process then click on select 
+**1. create account by importing private key** </br>
+**2. now connect to that account e.g account2** </br>
+**3. inset below details** </br>
+```
+| Field              | Value                                          |
+| ------------------ | ---------------------------------------------- |
+| Network name       | Localhost 8545                                 |
+| New RPC URL        | http://127.0.0.1:8545](http://127.0.0.1:8545   |
+| Chain ID           | 31337                                          |
+| Currency symbol    | ETH                                            |
+| Block Explorer URL | (Leave blank)                                  |
+```
+</br> **select network : Localhost 8545** </br>
+
+**---------------------------------------------------------- end ----------------------------------------------------------------**
+
+
 **-----> Manual  Installation of all file will be in the blockchain folder " final-project "**
 
 
