@@ -1,6 +1,12 @@
 
-**Note**
-## As I am stoing URL of Image in database but not on block,As I am storing only Image Id on Blockchain and deleting from ID only,but it become difficult to fetch data as My Display.js file fetching data from blockchain only here is the issue... ##
+## Note ##
+
+</hr></hr>
+
+**As I am stoing URL of Image in database but not on block,As I am storing only Image Id on Blockchain and deleting from ID only,but it become difficult to fetch data as My Display.js file fetching data from blockchain only here is the issue...** 
+
+</hr></hr>
+
 
 </hr></hr>
 
